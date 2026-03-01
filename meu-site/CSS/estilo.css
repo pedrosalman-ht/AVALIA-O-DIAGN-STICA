@@ -1,0 +1,84 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;}
+
+body {background-color: black;
+    color: white;}
+
+button {background-color: #2e2e2e;
+    color: white;
+   padding: 8px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(124, 124, 124, 0.2);}
+
+.BARRA {width: 200px;
+    float: left;
+    padding: 10px;}
+
+.BARRA ul {list-style: none; }
+
+.BARRA li {margin-bottom: 15px;}
+
+.perfil-header,
+.nova-postagem,
+.postagens {margin-left: 220px;
+    width: 75%;
+    margin-top: 20px;}
+
+.perfil-header {display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.perfil-info {display: flex;
+    align-items: center;
+    gap: 15px;}
+
+.usuario {display: flex;
+    gap: 8px;
+    align-items: center;}
+
+.nickname,
+.nickname-post {color: #cccccc;}
+
+
+.foto-perfil {width: 80px;
+    height: 80px;
+    border-radius: 50%;}
+
+.nova-postagem {background-color: #171717;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;}
+
+.nova-postagem input {width: 70%;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: none;}
+
+.post {background-color: #171717;
+    padding: 13px;
+    margin-bottom: 20px;
+    border-radius: 15px;}
+
+.post-header {display: flex;
+    align-items: center;
+    gap: 10px;}
+
+.foto-post {width: 50px;
+    height: 50px;
+    border-radius: 50%;}
+
+.conteudo-post {display: block;
+    margin-top: 10px;}
+
+.interacoes {display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;}
+
+.interacoes label {margin-right: 15px;
+    cursor: pointer;}
